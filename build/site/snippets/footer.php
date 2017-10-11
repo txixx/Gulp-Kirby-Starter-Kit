@@ -1,6 +1,4 @@
-<?php
-  echo js('assets/scripts/main.js');
-?>
+<?= js('assets/scripts/main.js') ?>
 
 </body>
 </html>

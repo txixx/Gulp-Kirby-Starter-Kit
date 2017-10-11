@@ -1,7 +1,7 @@
 # Gulp-Kirby-Starter-Kit
 **You heard about Kirby and want to use it on your next project? You're' also excited about Gulp v4, but want to harness its power today? Then THIS is for you!**
 
-Here's my personal (thus opinionated) Gulp+Kirby boilerplate, starring:
+Here's my very personal (thus very opinionated) Gulp+Kirby boilerplate, starring:
 - [Kirby CMS](https://getkirby.com/) - a file‑based CMS that's 'easy to setup, easy to use & flexible as hell'
 - [Gulp v4](http://gulpjs.com/) - the streaming build system
 
@@ -20,11 +20,21 @@ Workflow:
 - ...
 
 Pre-installed Kirby plugins:
-- ~~[Visual Markdown](https://github.com/JonasDoebertin/kirby-visual-markdown)~~
 - Fingerprinting via [kirby-fingerprint](https://github.com/iksi/KirbyFingerprint)
 - HTML Minification via [kirby-compress](https://github.com/iksi/kirby-compress)
-- (optional) SEO & SERP Preview via [kirby-seo](https://github.com/jenstornell/kirby-seo) with `git submodule add https://github.com/jenstornell/kirby-seo.git build/site/plugins/seo`
+- SEO & SERP preview & edit via [kirby-seo](https://github.com/jenstornell/kirby-seo)
+- User-friendly text formatting via [kirby-enhanced-textarea](https://github.com/medienbaecker/kirby-enhanced-textarea)
+- Content organisation & overview via [kirby-tabs-field](https://github.com/afbora/Kirby-Tabs-Field)
+- More flexible select field via [kirby-quickselect](https://github.com/medienbaecker/kirby-quickselect)
 - ...
+
+Optionally:
+- [kirby-imageset](https://github.com/fabianmichael/kirby-imageset)
+- [kirby-focus](https://github.com/flokosiol/kirby-focus)
+- [kirby-translations](https://github.com/flokosiol/kirby-translations)
+- [kirbytranslations](https://github.com/rasteiner/kirbytranslations)
+- [KirbyComments](https://github.com/Addpixel/KirbyComments)
+
 
 _to be continued_
 
@@ -46,6 +56,7 @@ If you want to update all included submodules later on, it's just these two line
 ```
 
 **Note: Before publishing your project, be sure to add your production `config.php` (eg `config.example.com.php`) to .gitignore!**
+
 
 ## Special Thanks
 I'd like to thank everybody that's making great software - you people are awesome. Also I'm always thankful for feedback and bug reports :)
