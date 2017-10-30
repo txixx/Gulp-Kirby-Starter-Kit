@@ -9,19 +9,19 @@ If you just want to have a look, feel free to do so with `php -S localhost:8000`
 
 
 ## Features
-This boilerplate is growing fastly and already provides a solid starting point that you can build upon. For now, just check gulpfile.js or package.json to find out about all the included / planned features!
+This **opinionated** boilerplate is growing rapidly while also providing a solid starting point that you can build upon. Check `Gulpfile.js` or `package.json` to find out about all included features!
 
 Workflow:
 - Sass / node-sass / libsass
 - Webpack
 - Bourbon / Bitters
 - Image optimization
-- Minification (styles & scripts)
+- CSS / JS minification
 - ...
 
 Pre-installed Kirby plugins:
-- Fingerprinting via [kirby-fingerprint](https://github.com/iksi/KirbyFingerprint)
-- HTML Minification via [kirby-compress](https://github.com/iksi/kirby-compress)
+- Cache-busting via [kirby-fingerprint](https://github.com/iksi/KirbyFingerprint)
+- HTML minification via [kirby-compress](https://github.com/iksi/kirby-compress)
 - SEO & SERP preview & edit via [kirby-seo](https://github.com/jenstornell/kirby-seo)
 - User-friendly text formatting via [kirby-enhanced-textarea](https://github.com/medienbaecker/kirby-enhanced-textarea)
 - Content organisation & overview via [kirby-tabs-field](https://github.com/afbora/Kirby-Tabs-Field)
@@ -51,8 +51,8 @@ $ npm install
 If you want to update all included submodules later on, it's just these two lines:
 
 ```bash
- $ git submodule foreach --recursive git checkout master
- $ git submodule foreach --recursive git pull
+$ git submodule foreach --recursive git checkout master
+$ git submodule foreach --recursive git pull
 ```
 
 **Note: Before publishing your project, be sure to add your production `config.php` (eg `config.example.com.php`) to .gitignore!**
