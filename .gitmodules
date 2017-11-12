@@ -19,3 +19,6 @@
 [submodule "build/site/plugins/quickselect"]
 	path = build/site/plugins/quickselect
 	url = https://github.com/medienbaecker/kirby-quickselect.git
+[submodule "build/site/plugins/kirby-sri"]
+	path = build/site/plugins/kirby-sri
+	url = https://github.com/S1SYPHOS/kirby-sri.git
