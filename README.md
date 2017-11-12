@@ -20,7 +20,7 @@ Workflow:
 - ...
 
 Pre-installed Kirby plugins:
-- Cache-busting via [kirby-fingerprint](https://github.com/iksi/KirbyFingerprint)
+- SRI hashing & Cache-busting via [kirby-sri](https://github.com/S1SYPHOS/kirby-sri)
 - HTML minification via [kirby-compress](https://github.com/iksi/kirby-compress)
 - SEO & SERP preview & edit via [kirby-seo](https://github.com/jenstornell/kirby-seo)
 - User-friendly text formatting via [kirby-enhanced-textarea](https://github.com/medienbaecker/kirby-enhanced-textarea)
