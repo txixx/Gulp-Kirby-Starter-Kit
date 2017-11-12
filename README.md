@@ -29,6 +29,8 @@ Pre-installed Kirby plugins:
 - ...
 
 Optionally:
+- [kirby-pep](https://github.com/S1SYPHOS/kirby-pep)
+- [kirby-highlight](https://github.com/S1SYPHOS/kirby-highlight)
 - [kirby-imageset](https://github.com/fabianmichael/kirby-imageset)
 - [kirby-focus](https://github.com/flokosiol/kirby-focus)
 - [kirby-translations](https://github.com/flokosiol/kirby-translations)
