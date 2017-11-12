@@ -43,7 +43,7 @@ _to be continued_
 Make sure [Node.js](http://nodejs.org/) is installed on your system, then clone this repository (and all included submodules) and install its dependencies via [NPM](https://npmjs.org/):
 
 ```bash
-$ git clone --recursive https://github.com/S1SYPHOS/Gulp-Kirby-Starter-Kit.git your-project
+$ git clone -b strong-opinion --recursive https://github.com/S1SYPHOS/Gulp-Kirby-Starter-Kit.git your-project
 $ cd your-project
 $ npm install
 ```
